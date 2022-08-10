@@ -1,8 +1,5 @@
-﻿<?php
-$conf['qqjump']=1;
-if(strpos($_SERVER['HTTP_USER_AGENT'], 'QQ/')!==false && $conf['qqjump']==1){
-$a='http://'.$_SERVER['SERVER_NAME'].':'.$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
-echo 'html>
+<!DOCTYPE html>
+<html>
 <meta http-equiv="Cache-Control" content="no-transform">
 <meta http-equiv="Cache-Control" content="no-siteapp">
 <script type="text/javascript">
@@ -17,3 +14,4 @@ echo 'html>
                window.location.href="iPhone.html";  
         }
 </script>
+</html>
